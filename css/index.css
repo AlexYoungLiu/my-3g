@@ -1,0 +1,63 @@
+@import url("common.css");
+html, body, .container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+#index .main_view {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 0 9%;
+  margin-top: 16px;
+  background: white; }
+#index .net_number {
+  margin-top: 25px; }
+#index .get_code {
+  position: absolute;
+  right: 10%;
+  top: 78px;
+  height: 27px;
+  padding: 0 5px 0 5px;
+  font-size: 13px;
+  color: #5E83E1;
+  line-height: 27px;
+  border: none;
+  background: white; }
+#index .login_btn {
+  background: #ccc;
+  margin-top: 38px; }
+#index .opencard_btn {
+  background: #5E83E1;
+  margin-top: 18px; }
+#index .asked_questions {
+  position: absolute;
+  left: 50%;
+  top: 270px;
+  margin-left: -46px;
+  width: 92px;
+  height: 20px;
+  padding-left: 22px;
+  font-size: 13px;
+  color: #5E83E1;
+  line-height: 20px;
+  background: url(../images/questions_icon.png) no-repeat 0 center;
+  background-size: 14px 14px; }
+#index .open_box {
+  width: 100%;
+  height: 124px;
+  margin-top: 37%;
+  position: relative; }
+#index .open_way {
+  position: absolute;
+  left: 50%;
+  bottom: 55px;
+  width: 100px;
+  height: 16px;
+  margin-left: -50px;
+  font-size: 14px;
+  color: #9C9C9C;
+  line-height: 16px;
+  text-align: center;
+  background: url(../images/arrow_right.png) no-repeat right center;
+  background-size: 8px 12px; }

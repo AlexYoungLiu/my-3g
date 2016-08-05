@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- 如果支持Google Chrome Frame:GCF，则使用GCF渲染;如果系统安装ie8或以上版本,则使用最高版本ie渲染;否则,这个设定可以忽略. -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+	<!-- width - viewport的宽度;height - viewport的高度;initial-scale - 初始的缩放比例;minimum-scale - 允许用户缩放到的最小比例;maximum-scale - 允许用户缩放到的最大比例;user-scalable - 用户是否可以手动缩放 -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0"/>
+	<!-- 网站开启对 web app 程序的支持. -->
+	<meta name="apple-mobile-web-app-capable" content="yes"/>
+	<!-- 在 web app 应用下状态条（屏幕顶部条）的颜色;默认值为 default（白色）,可以定为 black（黑色）和 black-translucent（灰色半透明）;注意:若值为“black-translucent”将会占据页面位置,浮在页面上方（会覆盖页面 20px 高度 iphone4 和 itouch4 的 Retina 屏幕为 40px ）. -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+	<!-- 使设备浏览网页时对数字不启用电话功能（不同设备解释不同,iTouch 点击数字为存入联系人,iPhone 为拨打电话）,忽略将页面中的数字识别为电话号码.若需要启用电话功能将 telephone=yes 即可,若在页面上面有 Google Maps,iTunes 和 YouTube 的链接会在ios设备上打开相应的程序组件. -->
+	<meta name="format-detection" content="telephone=no"/>
+	<title>选择号码及套餐</title>
+	<link rel="icon" href="images/Travel_Baloon_128px_544781_easyicon.net.ico" type="image/x-icon"/>
+	<link rel="stylesheet" href="css/main.min.css">
+</head>
+<body>
+	<div id="choose">
+		<div class="container">
+			<div class="main_view" id="choose_main_view">
+				<input type="text" placeholder="请输入您手表的ICCID" class="iccid_text"><span class="query"></span>
+				<input type="text" placeholder="选择号码" class="choose_number">
+				<span class="amount_prestore">预存金额</span><span>30元</span>
+				<span class="title">选择套餐</span>
+				<section class="choose choose_package">
+					<div class="active">
+						<p class="zero">0元月租</p>
+						<p>永久0元月租，主叫0.15元/分钟，</p>
+						<p>流量0.15元/MB</p>
+					</div>
+					<div class="actived">
+						<p class="nine">9.9元套餐</p>
+						<p>9.9元月租，含30分钟语音通话+50MB流量，</p>
+						<p>主叫0.15元/分钟，流量0.15元/MB</p>
+					</div>
+				</section>
+				<p class="heihei">开通即赠送100MB流量，6个月内有效</p>
+				<span class="title">来电显示</span>
+				<section class="choose choose_cid">
+					<div class="active">开通 5元/月</div>
+					<div class="actived">暂不需要</div>
+				</section>
+				<input type="button" value="下一步" class="next_btn" disabled="disabled">
+				<div class="query_box">
+					<p>
+						请到您的Ticwatch包装盒或手表[设置-关于]菜单中查看获取ICCID码（20位）:
+					</p>
+					<p>
+						请正确填写，否则有可能绑定其他手表
+					</p>
+					<img src="images/img1.png">
+					<img src="images/img2.png">
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="lib/require.min.js" data-main="scripts/main"></script>
+</body>
+</html>

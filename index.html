@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- 如果支持Google Chrome Frame:GCF，则使用GCF渲染;如果系统安装ie8或以上版本,则使用最高版本ie渲染;否则,这个设定可以忽略. -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+	<!-- width - viewport的宽度;height - viewport的高度;initial-scale - 初始的缩放比例;minimum-scale - 允许用户缩放到的最小比例;maximum-scale - 允许用户缩放到的最大比例;user-scalable - 用户是否可以手动缩放 -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0"/>
+	<!-- 网站开启对 web app 程序的支持. -->
+	<meta name="apple-mobile-web-app-capable" content="yes"/>
+	<!-- 在 web app 应用下状态条（屏幕顶部条）的颜色;默认值为 default（白色）,可以定为 black（黑色）和 black-translucent（灰色半透明）;注意:若值为“black-translucent”将会占据页面位置,浮在页面上方（会覆盖页面 20px 高度 iphone4 和 itouch4 的 Retina 屏幕为 40px ）. -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+	<!-- 使设备浏览网页时对数字不启用电话功能（不同设备解释不同,iTouch 点击数字为存入联系人,iPhone 为拨打电话）,忽略将页面中的数字识别为电话号码.若需要启用电话功能将 telephone=yes 即可,若在页面上面有 Google Maps,iTunes 和 YouTube 的链接会在ios设备上打开相应的程序组件. -->
+	<meta name="format-detection" content="telephone=no"/>
+	<title>登录注册</title>
+	<link rel="icon" href="images/Travel_Baloon_128px_544781_easyicon.net.ico" type="image/x-icon"/>
+	<link rel="stylesheet" href="css/main.min.css">
+</head>
+<body>
+	<div id="index">
+		<div class="container">
+			<div class="main_view">
+				<input type="text" placeholder="入网证件号码" class="text net_number">
+				<input type="text" placeholder="验证码" class="text code_text"><input type="button" value="获取验证码" class="get_code">
+				<input type="button" value="登录" class="btns login_btn" disabled="disabled">
+				<input type="button" value="没有账号,我要开卡" class="btns opencard_btn">
+				<a class="asked_questions">3G常见问题</a>
+				<div class="open_box">
+					<a class="open_way">其他开通途径</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="lib/require.min.js" data-main="scripts/main"></script>
+</body>
+</html>
